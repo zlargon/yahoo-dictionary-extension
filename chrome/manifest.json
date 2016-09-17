@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Yahoo Dictionary Audio Shortcut",
+  "description": "Press 'Enter' to play audio",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://tw.dictionary.search.yahoo.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "tabs", "https://tw.dictionary.search.yahoo.com/*"
+  ]
+}
