@@ -1,10 +1,9 @@
-document.addEventListener('keyup', function (e) {
-  switch (e.keyCode) {
-    // Enter: play audio
-    case 13:
-      document.getElementById('proun_sound')
-              .childNodes[0]
-              .click();
-      break;
+document.addEventListener('keydown', function (e) {
+
+  // Cmd/Ctrl/Shift + Enter
+  if (e.keyCode === 13 && (e.metaKey || e.ctrlKey || e.shiftKey)) {
+    var audio = document.getElementsByTagName('audio')[0];
+    audio.play();
   }
+
 }, true);

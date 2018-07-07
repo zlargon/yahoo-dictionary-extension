@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Yahoo Dictionary Audio Shortcut",
-  "description": "Press 'Enter' to play audio",
+  "description": "Press 'Cmd/Ctrl/Shift + Enter' to play audio",
   "version": "0.0.1",
   "browser_action": {
     "default_icon": "icon.png"

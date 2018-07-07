@@ -2,7 +2,7 @@
 
 Yahoo Dictionary Audio Shortcut Browser Extension
 
-* Press 'Enter' to play audio
+* Press 'Cmd/Ctrl/Shift + Enter' to play audio
 
 ## Yahoo Online Dictionary
 
